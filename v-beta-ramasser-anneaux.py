@@ -1,3 +1,4 @@
+from robot import *
 Moove=1
 
 NbCase=10
@@ -5,16 +6,16 @@ for loop in range(NbCase):
   for loop in range(Moove):
     print("droitre()")
   print("    ramasser()")
-  Moove=Moove+1
+  
   for loop in range(Moove):
     print("gauche()")
   print("    deposer()")
-  Moove 
+  Moove=Moove+1
   """
   version manuelle:
   from robot import *
 print("droite()")
-print("ramasser()")
+print("ramasser")
 print("gauche()")
 print("deposer()")
 for loop in range(2):
