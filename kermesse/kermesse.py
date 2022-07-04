@@ -1,6 +1,5 @@
-NbShoot=1
-Bonbon=1
-while NbShoot<=5:
-  Bonbon=Bonbon+Bonbon
-  print(Bonbon)
-  NbShoot=NbShoot+1
+NbCandy=0
+i=1
+for i in range(1,51):
+  NbCandy=NbCandy+i
+  print(NbCandy)
