@@ -1,4 +1,0 @@
-Afin d'amuser un groupe d'enfants, vous décidez de leur construire une fusée. Après leur avoir rappelé qu'il ne faut pas le faire sans un adulte, vous sortez un sachet de thé de votre poche et annoncez que ce sera votre fusée ! Incrédules, les enfants vous voient enlever l'agrafe, l'étiquette, vider le thé, et former un cylindre. Il ne reste plus qu'à allumer le haut du cylindre et faire le décompte avant le décollage de la fusée !
-
-Ce que doit faire votre programme :
-Votre programme devra lancer le décompte en partant de 100 puis annoncer le décollage, c'est-à-dire afficher une séquence d'annonces de la forme :
