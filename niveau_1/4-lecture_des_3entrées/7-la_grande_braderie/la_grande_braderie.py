@@ -1,9 +1,7 @@
-positionDepart=10
-largeurEmplacement=5
-NbVendeurs=3
-print(positionDepart)
-tmp=positionDepart
-for loop in range(NbVendeurs):
-  tmp+=largeurEmplacement
+positionDepart=int(input())
+largeurEmplacement=int(input())
+nbVendeurs=int(input())
 
-  print(tmp)
+for loop in range(nbVendeurs+1):
+  print(positionDepart)
+  positionDepart=positionDepart+ largeurEmplacement
