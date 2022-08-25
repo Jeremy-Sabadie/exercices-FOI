@@ -1,18 +1,18 @@
 count=0
 for loop in range(nbPersonne):
-  sizeCm=int(input("taille?"))
+  sizeCm=int(input(""))
   if sizeCm>=178 and sizeCm<=182:
     count=count+1
   age=int(input("age?"))
   if age>=34:
     count=count+1
-  weight=int(input("poids?"))
+  weight=int(input(""))
   if weight<70:
     count=count+1
-  horse=int(input("cheval?"))
+  horse=int(input(""))
   if horse==0:
     count=count+1
-  hair=int(input("cheveux?"))
+  hair=int(input(""))
   if hair==1:
     count=count+1
   if count>=5:
