@@ -6,11 +6,8 @@ nbHousses=int(input())
 count=0
 for loop in range(nbHousses):
   abs=int(input())
-  if abs>= absMini or abs<=absMax:
-    abs=True
   ordo=int(input())
-  if ordo>=ordoMini or ordo<=ordoMax:
-    ordo=True
-  if abs==True and ordo==True:
+  condition= (abs>=absMini and abs<=absMax)     and(ordo>=ordoMini and ordo<=ordoMax)
+  if condition:
     count=count+1
 print(count)
