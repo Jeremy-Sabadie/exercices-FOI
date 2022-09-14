@@ -1,3 +1,4 @@
+"""a modifier pour valider :
 nbPaire=int(input())
 for loop in range(nbPaire):
   asbsMin1=int(input())
@@ -8,7 +9,8 @@ for loop in range(nbPaire):
   absMax2=int(input())
   ordoMin2=int(input())
   ordoMax2=int(input())
-  condition=(asbsMin1>asbsMin2) and (ordoMin1>ordoMin2) or (asbsMin2<asbsMin1)    and (ordoMin2<ordoMin1)
+  condition=((absMax1>asbsMin2) and (ordoMax1>ordoMin2)) or((ordoMax2<ordoMin1 and absMax2<ordoMin1))    
   if condition:
     print("OUI")
-  else: print("NON")
+  elif   condition!=True:
+    print("NON")
