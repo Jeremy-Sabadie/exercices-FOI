@@ -1,13 +1,12 @@
-partyStart=int(input())
-partyEnd=int(input())
+"""suspect=0
+start=int(input())
+end= int(input())
 nbInvites=int(input())
-count=0
 for loop in range(nbInvites):
-  arive=int(input())
-  
-    
+  suspect=0
+  arrive=int(input())
   depart=int(input())
-  condition=(arive>=partyStart and arive<=partyEnd) or(depart>=partyStart and depart<=partyEnd)
+  condition=(arrive>=start) and (arrive<=end) or (depart<=end) and (depart>=end) or (arrive<=start) and (depart>=end)
   if condition:
-    count=count+1
-print(count)
+    suspect=suspect+1
+print(suspect)"""
