@@ -1,25 +1,32 @@
+nbPersonne=int(input())
 count=0
 for loop in range(nbPersonne):
-  sizeCm=int(input(""))
+  count=0
+  sizeCm=int(input())
   if sizeCm>=178 and sizeCm<=182:
     count=count+1
-  age=int(input("age?"))
+  
+  age=int(input())
   if age>=34:
     count=count+1
-  weight=int(input(""))
+  
+  weight=int(input())
   if weight<70:
     count=count+1
-  horse=int(input(""))
+  
+  horse=int(input())
   if horse==0:
     count=count+1
-  hair=int(input(""))
-  if hair==1:
+  
+  brownHair=int(input())
+  if brownHair==1:
     count=count+1
-  if count>=5:
+  
+  if count==5:
     print("Très probable")
-  if count==3 or count==4:
+  elif count==3 or count==4:
     print("Probable")
-  if count==0:
-    print(" Impossible")
-  elif count<3:
+  elif count==0:
+    print("Impossible")
+  else:
     print("Peu probable")

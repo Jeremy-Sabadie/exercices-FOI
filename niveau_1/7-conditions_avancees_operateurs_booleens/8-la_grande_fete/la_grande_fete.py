@@ -1,14 +1,14 @@
-partyStart=int(input())
-partyEnd=int(input())
+suspect=0
+start=int(input())
+end= int(input())
 nbInvites=int(input())
-count=0
 for loop in range(nbInvites):
-  arive=int(input())
   
-    
+  arrive=int(input())
   depart=int(input())
-  condition=(arive>=partyStart and arive<=partyEnd) or(depart>=partyStart and depart<=partyEnd)
+  condition=(arrive>=start and arrive<=end) or (depart<=end and depart>=start)or (arrive<=start and depart>=end) 
   if condition:
+<<<<<<< HEAD
     count=count+1
 print(count)
 """zzphyr
@@ -22,3 +22,7 @@ for a in range(guest):
     susp = (arr>=start and arr<=end) or (dep<=end and dep>=start) or (arr <= start and dep >= end)
     if susp:
         spy=spy+1
+=======
+    suspect=suspect+1
+print(suspect)
+>>>>>>> 4187761a6716a324bdb416b29bdd3a8494f32aec
