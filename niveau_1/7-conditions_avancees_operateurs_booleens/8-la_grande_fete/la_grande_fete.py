@@ -11,3 +11,14 @@ for loop in range(nbInvites):
   if condition:
     count=count+1
 print(count)
+"""zzphyr
+start=int(input())
+end=int(input())
+guest=int(input())
+spy=0
+for a in range(guest):
+    arr=int(input())
+    dep=int(input())
+    susp = (arr>=start and arr<=end) or (dep<=end and dep>=start) or (arr <= start and dep >= end)
+    if susp:
+        spy=spy+1
