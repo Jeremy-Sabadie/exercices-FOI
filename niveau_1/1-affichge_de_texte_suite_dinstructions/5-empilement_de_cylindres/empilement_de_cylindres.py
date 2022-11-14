@@ -25,3 +25,7 @@ deplacer(1,3)
 deplacer(2,1)
 deplacer(2,3)
 deplacer(1,3)
+
+
+
+

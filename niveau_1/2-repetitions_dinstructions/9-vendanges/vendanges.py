@@ -7,3 +7,4 @@ for loop in range (20):
    deposer()
    for loop in range(15):
       gauche()
+  

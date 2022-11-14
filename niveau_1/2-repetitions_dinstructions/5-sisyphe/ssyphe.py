@@ -6,3 +6,4 @@ gauche()
 for loop in range(20):
    bas()
    gauche()
+bas()

@@ -1,5 +1,5 @@
-n= 5
-i=2
-for loop in range(n):
-  i=i*2
-  print(i)
+WeeksNb= 12
+ActualNb=1337
+for loop in range(WeeksNb):
+  ActualNb=ActualNb*2
+print(ActualNb)

@@ -6,3 +6,4 @@ ramasser()
 for loop in range(32):
    droite()
 deposer()
+   

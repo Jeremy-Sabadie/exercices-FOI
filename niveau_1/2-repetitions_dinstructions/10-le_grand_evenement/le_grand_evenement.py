@@ -13,4 +13,25 @@ haut()
 for loop in range(9):
    gauche()
 for loop in range(9):
-   bas(
+   bas()
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+  
+   
+   
